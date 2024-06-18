@@ -28,7 +28,6 @@ b2 = torch.zeros(output_size, requires_grad=True)
 
 
 epochNum = 5
-
 #optimizer
 optimizer = torch.optim.SGD([W1,b1, W2, b2], lr=0.01)
 
